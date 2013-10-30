@@ -5,7 +5,7 @@ Multitasking library for arduino
 
 here is an example:
 
-//======================================================================
+```C++
 
 #include<Multitask.h>
 
@@ -91,3 +91,4 @@ class BlinkApplication2 : public Application, public EventDelay
 
 LOAD_APPLICATIONS_3(BlinkApplication,SerialEchoApplication,BlinkApplication2)
 
+```
